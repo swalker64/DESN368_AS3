@@ -1,0 +1,70 @@
+body {
+	background: url(../img/Tulips.jpg) no-repeat center;
+	background-size: cover;
+}
+
+#main,
+#sidebar {
+	background: lightblue;
+	opacity: .80;
+	color: darkblue;
+}
+
+#main,
+#nav {
+	margin-left: -10px;	
+	padding: 10px;
+}
+
+#logo {
+	height: 220px;
+	width: 220px;	
+}
+
+#sidebar {
+	background-color: lightblue;
+	font-size: 14px;
+}
+
+#sidebar li {
+	list-style-type: none;
+	font-style: italic;
+}
+
+#sidebar h4,
+#sidebar p {
+	padding: 5px;	
+}
+
+#nav {
+	background: lightyellow;
+}
+
+#nav a {
+	padding: 5px;
+}
+
+a:hover {
+	background-color: pink;
+}
+
+#section {
+	display: block;
+	height: 617px;
+	margin-left: -10px;	
+	margin-top: -10px;
+	padding: 10px;
+	background-color: lightyellow;
+	opacity: .80;
+}
+
+#section p,
+#section li {
+	font-size: 12px;	
+}
+
+cite {
+	text-align: center;
+	font-size: 10px;
+	color: white;
+}
